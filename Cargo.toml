@@ -1,0 +1,12 @@
+[package]
+name = "timer"
+version = "0.1.0"
+authors = ["Shashank Kambhampati <frost263@gmail.com>"]
+
+[dependencies]
+getopts = "0.2.4"
+chrono = "0.4"
+
+[profile.release]
+lto = true
+panic='abort'
